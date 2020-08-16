@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>E-commerce cart page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <meta charset="UTF-8" >
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="e-commerce.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+    <body>
+        <div class="header" >
+            <div style="font-size: 38px;line-height: 57px;margin-right: 60px;" >
+                LOGO
+            </div>
+            
+            <div class="space">
+                
+                <input type="text" placeholder=" &emsp;&#xF002;&emsp; Search apparel" style="font-family: FontAwesome;font-size: 20px;
+                line-height: 30px;">&emsp;
+                <button class="search-btn">Search</button>&emsp;
+            </div>
+            
+            <div class="space"> 
+                <a href="#sign-in" style="color: #BDBDBD;text-decoration: none; display: inline;">Sign in</a>&emsp;
+                <button class="space-btn">Register</button>
+            </div>
+           
+            <div class="space" style="padding-top: 20px;color:#434371;">
+                <img src="cart.png" alt="cart icon" display="inline">
+                <span>2</span>
+                Cart
+            </div>
+            
+
+        </div>
+        <div class="header" id="body">
+            <div class="vert">
+                <h1 style="float: left;">Shopping cart</h1>
+                <div  class=title style="border-top: thin solid black;border-bottom: thin solid black">
+                    PRODUCT DETAILS &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp;  &emsp;&emsp;&emsp;&emsp;
+                    <div class= "space-">
+                        &emsp; QUANTITY  &emsp;&emsp; &emsp; 
+                        PRICE &emsp;&emsp; &emsp;    
+                        TOTAL &emsp;&emsp;
+                    </div>
+                </div>
+            
+                <div class=header2>
+                    
+                        <div class="sect" style="width: 420px;">
+                            
+                            <img src="girl-sweater.png" alt="A girl in sweater" style="float: left;margin-right: 10px;"> &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; 
+                            Jacket, Women <br><br>
+                            Color: Light Blue <br><br>
+                            Size: XS <br><br>
+                            Product Code: 5yt6
+                        </div>
+                        <div class="sect">
+                            
+                            <select name="quantity" id="quantity" size= 1 style="overflow-y: auto;">
+                                <option value="one">1</option>
+                                <option value="one" selected>2</option>
+                                <option value="one">3</option>
+                                <option value="one">4</option>
+                                <option value="one">5</option>
+                                <option value="one">6</option>
+                                <option value="one">7</option>
+                                <option value="one">8</option>
+                                <option value="one">9</option>
+                                <option value="one">10</option>
+                            </select><br>
+                            <button id="remove-btn" style="background-color: white;font-size: 20px;
+                            line-height: 30px;border-top: none; border-left:none; border-right: none; margin-top: 5px;">REMOVE</button>
+                    
+                        </div>
+                        <div class="sect" style="padding-left:40px; margin-right: 10px;">
+                           N2500
+                        </div>
+                        <div class="sect" style="color: black; text-align: right;margin-left: -30px;">
+
+                            N2500 <br><br><br><br> <br><br><br>
+                            <a href="#edit">EDIT</a><br>
+                            <a href="#save">SAVE FOR LATER</a>
+                        </div>
+
+                </div>
+                <div class="null"></div> <br>
+                <a href="#shopping">CONTINUE SHOPPING</a>
+            </div>
+            
+            <div class="chk-out">
+                    ORDER SUMMARY <br>
+                    <hr><br>
+                    ITEMS 2   &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;N2500 <br><br>
+                    SHIPPING <br><br>
+                    <div style="border: thin solid black; background-color: white;padding: 5px;">
+                        DELIVERY - N500 &emsp;&emsp;&emsp;&emsp;<i class="fa fa-chevron-down" style="color: black;"></i>
+                    </div><br>
+                    <hr><br>
+                    TOTAL COST  &emsp;&emsp;&emsp;&nbsp;&nbsp;N3000 <br><br><br>
+                    <button class="chk-out-btn" >CHECK OUT</button>
+
+            </div>
+                
+            
+            
+        </div>
+        
+    </body>
+</html>
